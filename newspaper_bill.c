@@ -13,7 +13,8 @@ struct name{
 };
 int main()
 {
-    FILE ;
+    FILE *news;
+    
     struct name january[31];
     struct name february[28];
     struct name march[31];
@@ -29,9 +30,13 @@ int main()
 
     int month_number;
     int date;
+    news=fopen("Final.txt","w");
+    fputs("Date\t\tPrice($)\n",news);
+
     printf("Enter number of the Month:");
     scanf("%d",&month_number);
     //gets(month_name);
+    
     switch(month_number){
         case 1:
             printf("Enter date of the month:");
