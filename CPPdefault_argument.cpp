@@ -1,4 +1,5 @@
 #include<iostream>
+//indentation
 using namespace std;
 void iputs(char *str,int indent=-1);
 int main(){
