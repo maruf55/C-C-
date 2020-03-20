@@ -18,3 +18,9 @@ int main() {
     derived ob;
     return 0;
 }
+/* output
+    Constructing.        
+    Constructing Derived.
+    Destructing Derived. 
+    Destructing.
+ */
